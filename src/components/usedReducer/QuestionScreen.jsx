@@ -26,7 +26,7 @@ export default function QuestionScreen({
         Question {currentIdx + 1} of {totalQuestions}
       </div>
 
-      <h2 className="text-xl font-semibold">{${question}}</h2>
+      <h2 className="text-xl font-semibold">{`${question}`}</h2>
 
       <ul className="space-y-3">
         {options.map((opt, i) => (
@@ -61,4 +61,5 @@ export default function QuestionScreen({
     </div>
   );
 }
+
 
